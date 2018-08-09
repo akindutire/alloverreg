@@ -1,0 +1,323 @@
+01:48:28 pm ---> Connection Established
+01:48:31 pm ---> Connection Established
+01:48:31 pm ---> Connection Established
+01:48:36 pm ---> Connection Established
+01:48:36 pm ---> Connection Established
+01:48:48 pm ---> Connection Established
+01:49:16 pm ---> Connection Established
+01:49:17 pm ---> Connection Established
+01:49:17 pm ---> Error Session Index uid Not Found
+01:49:17 pm ---> UPDATE users SET active='0'  WHERE admin_id=''
+01:49:17 pm ---> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'allover_reg.users' doesn't exist
+01:49:17 pm ---> Server Error, Couldn't activate User Logout
+01:49:17 pm ---> Connection Established
+01:49:17 pm ---> Connection Established
+01:49:36 pm ---> Connection Established
+01:49:36 pm ---> Connection Established
+01:57:03 pm ---> Connection Established
+01:57:03 pm ---> Connection Established
+01:57:03 pm ---> SELECT admin_id,password,admin_capability FROM admin WHERE username = 'tahoma@gmail.com' 
+02:00:54 pm ---> Connection Established
+02:00:54 pm ---> Connection Established
+02:00:54 pm ---> SELECT admin_id,password,admin_capability FROM admin WHERE username = 'tahoma@gmail.com' 
+02:01:17 pm ---> Connection Established
+02:01:17 pm ---> Connection Established
+02:01:17 pm ---> SELECT admin_id,password,admin_capability FROM admin WHERE username = 'tehanom@gmail.com' 
+02:01:18 pm ---> uid Session Saved
+02:01:18 pm ---> rank Session Saved
+02:01:18 pm ---> browser Session Saved
+02:01:18 pm ---> active Session Saved
+02:01:18 pm ---> Connection Established
+02:01:18 pm ---> Connection Established
+02:01:18 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '1' 
+02:01:18 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '0' 
+02:01:18 pm ---> Connection Established
+02:01:18 pm ---> SELECT faculty_id,faculty_name FROM faculty WHERE faculty_id != '0' 
+02:01:18 pm ---> SELECT faculty_id FROM admin WHERE faculty_id = '1' 
+02:01:18 pm ---> Connection Established
+02:01:33 pm ---> Connection Established
+02:01:33 pm ---> Connection Established
+02:01:33 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '1' 
+02:01:33 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '0' 
+02:01:33 pm ---> Connection Established
+02:01:33 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:01:33 pm ---> Connection Established
+02:01:56 pm ---> Connection Established
+02:01:59 pm ---> Connection Established
+02:01:59 pm ---> Connection Established
+02:01:59 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '1' 
+02:01:59 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '0' 
+02:01:59 pm ---> Connection Established
+02:01:59 pm ---> SELECT faculty_id,faculty_name FROM faculty WHERE faculty_id != '0' 
+02:01:59 pm ---> SELECT faculty_id FROM admin WHERE faculty_id = '1' 
+02:01:59 pm ---> Connection Established
+02:02:02 pm ---> Connection Established
+02:02:02 pm ---> Connection Established
+02:02:02 pm ---> UPDATE users SET active='0'  WHERE admin_id='1'
+02:02:02 pm ---> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'allover_reg.users' doesn't exist
+02:02:02 pm ---> Server Error, Couldn't activate User Logout
+02:02:02 pm ---> Connection Established
+02:02:02 pm ---> Connection Established
+02:02:06 pm ---> Connection Established
+02:02:06 pm ---> Connection Established
+02:03:37 pm ---> Connection Established
+02:03:37 pm ---> Connection Established
+02:03:37 pm ---> SELECT admin_id,password,admin_capability FROM admin WHERE username = 'allover@gmail.com' 
+02:03:37 pm ---> uid Session Saved
+02:03:37 pm ---> rank Session Saved
+02:03:37 pm ---> browser Session Saved
+02:03:37 pm ---> active Session Saved
+02:03:37 pm ---> Connection Established
+02:03:37 pm ---> Connection Established
+02:03:37 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:03:37 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:03:37 pm ---> Connection Established
+02:03:37 pm ---> SELECT session_id,session_name FROM session WHERE faculty_in LIKE '%1%' 
+02:03:37 pm ---> Connection Established
+02:05:01 pm ---> Connection Established
+02:05:01 pm ---> academic_session Session Saved
+02:05:01 pm ---> Connection Established
+02:05:01 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:05:01 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:05:01 pm ---> Connection Established
+02:05:01 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:05:01 pm ---> Connection Established
+02:05:01 pm ---> SELECT department_id,department_name FROM department WHERE faculty_id = '1' 
+02:05:01 pm ---> SELECT * FROM admin WHERE department_id = '1' 
+02:05:01 pm ---> SELECT * FROM admin WHERE department_id = '2' 
+02:05:01 pm ---> SELECT * FROM admin WHERE department_id = '3' 
+02:05:01 pm ---> Connection Established
+02:05:10 pm ---> Connection Established
+02:05:10 pm ---> Connection Established
+02:05:10 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:05:10 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:05:10 pm ---> Connection Established
+02:05:10 pm ---> SELECT session_id,session_name FROM session WHERE faculty_in LIKE '%1%' 
+02:05:21 pm ---> Connection Established
+02:05:21 pm ---> Connection Established
+02:05:21 pm ---> SELECT session_id,faculty_in FROM session WHERE session_name = '2017/2018' 
+02:05:21 pm ---> INSERT INTO session VALUES(?,?,?)
+02:05:21 pm ---> Connection Established
+02:05:21 pm ---> Connection Established
+02:05:21 pm ---> SELECT session_id,session_name FROM session WHERE faculty_in LIKE '%1%' 
+02:05:25 pm ---> Connection Established
+02:05:25 pm ---> academic_session Session Saved
+02:05:25 pm ---> Connection Established
+02:05:25 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:05:25 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:05:25 pm ---> Connection Established
+02:05:25 pm ---> SELECT session_name FROM session WHERE session_id = '2' 
+02:05:25 pm ---> Connection Established
+02:05:25 pm ---> SELECT department_id,department_name FROM department WHERE faculty_id = '1' 
+02:05:25 pm ---> SELECT * FROM admin WHERE department_id = '1' 
+02:05:25 pm ---> SELECT * FROM admin WHERE department_id = '2' 
+02:05:25 pm ---> SELECT * FROM admin WHERE department_id = '3' 
+02:05:25 pm ---> Connection Established
+02:05:51 pm ---> Connection Established
+02:05:51 pm ---> Connection Established
+02:05:51 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:05:51 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:05:51 pm ---> Connection Established
+02:05:51 pm ---> SELECT session_id,session_name FROM session WHERE faculty_in LIKE '%1%' 
+02:06:03 pm ---> Connection Established
+02:06:03 pm ---> academic_session Session Saved
+02:06:03 pm ---> Connection Established
+02:06:03 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:06:03 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:06:03 pm ---> Connection Established
+02:06:03 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:06:03 pm ---> Connection Established
+02:06:03 pm ---> SELECT department_id,department_name FROM department WHERE faculty_id = '1' 
+02:06:03 pm ---> SELECT * FROM admin WHERE department_id = '1' 
+02:06:03 pm ---> SELECT * FROM admin WHERE department_id = '2' 
+02:06:03 pm ---> SELECT * FROM admin WHERE department_id = '3' 
+02:06:03 pm ---> Connection Established
+02:06:23 pm ---> Connection Established
+02:06:23 pm ---> Connection Established
+02:06:23 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:06:23 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:06:23 pm ---> Connection Established
+02:06:23 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:06:23 pm ---> Connection Established
+02:06:23 pm ---> SELECT department_name FROM department WHERE department_id = '1' 
+02:06:23 pm ---> Connection Established
+02:06:40 pm ---> Connection Established
+02:06:41 pm ---> Connection Established
+02:07:01 pm ---> Connection Established
+02:07:01 pm ---> academic_session Session Saved
+02:07:01 pm ---> Connection Established
+02:07:01 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:07:01 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:07:01 pm ---> Connection Established
+02:07:01 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:01 pm ---> Connection Established
+02:07:01 pm ---> SELECT department_id,department_name FROM department WHERE faculty_id = '1' 
+02:07:01 pm ---> SELECT * FROM admin WHERE department_id = '1' 
+02:07:01 pm ---> SELECT * FROM admin WHERE department_id = '2' 
+02:07:01 pm ---> SELECT * FROM admin WHERE department_id = '3' 
+02:07:01 pm ---> Connection Established
+02:07:06 pm ---> Connection Established
+02:07:06 pm ---> Connection Established
+02:07:06 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:07:06 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:07:06 pm ---> Connection Established
+02:07:06 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:07:06 pm ---> Connection Established
+02:07:06 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:07 pm ---> Connection Established
+02:07:18 pm ---> Connection Established
+02:07:18 pm ---> Connection Established
+02:07:18 pm ---> UPDATE department SET department_name='Business A'  WHERE department_id='3'
+02:07:18 pm ---> Connection Established
+02:07:18 pm ---> Connection Established
+02:07:18 pm ---> SELECT department_id,department_name FROM department WHERE faculty_id = '1' 
+02:07:18 pm ---> SELECT * FROM admin WHERE department_id = '1' 
+02:07:18 pm ---> SELECT * FROM admin WHERE department_id = '2' 
+02:07:18 pm ---> SELECT * FROM admin WHERE department_id = '3' 
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> academic_session Session Saved
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:07:29 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> SELECT course_id,course_code,course_name,course_level_id,course_semester_id,faculty_id,department_id,course_unit,course_pre_requisite_id,addedby FROM course WHERE faculty_id = '1' AND session_id LIKE '%1%' 
+02:07:29 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:29 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:29 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:29 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:29 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:29 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:29 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:29 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:29 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:29 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:29 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:29 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:29 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:29 pm ---> SELECT semester FROM semester WHERE id = '2' 
+02:07:29 pm ---> SELECT course_code FROM course WHERE course_id = '4' 
+02:07:29 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> SELECT course_id,course_name FROM course WHERE session_id LIKE '%1%' 
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> SELECT department_id,department_name FROM department WHERE faculty_id = '1' 
+02:07:29 pm ---> Connection Established
+02:07:29 pm ---> SELECT id,level FROM level WHERE id != '0' 
+02:07:29 pm ---> Connection Established
+02:07:43 pm ---> Connection Established
+02:07:43 pm ---> Connection Established
+02:07:43 pm ---> SELECT session_id FROM course WHERE course_id = '4' 
+02:07:43 pm ---> 0
+02:07:43 pm ---> DELETE FROM course WHERE course_id='4' 
+02:07:43 pm ---> 0
+02:07:43 pm ---> DELETE FROM student_course_registration WHERE course_id='4' 
+02:07:43 pm ---> SELECT lectures_id,course,venue,time FROM lectures WHERE course LIKE '%4%' 
+02:07:43 pm ---> Connection Established
+02:07:43 pm ---> Connection Established
+02:07:43 pm ---> SELECT course_id,course_code,course_name,course_level_id,course_semester_id,faculty_id,department_id,course_unit,course_pre_requisite_id,addedby FROM course WHERE faculty_id = '1' AND session_id LIKE '%1%' 
+02:07:43 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:43 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:43 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:43 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:43 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:43 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:43 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:43 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:43 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:43 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:43 pm ---> SELECT semester FROM semester WHERE id = '2' 
+02:07:43 pm ---> SELECT course_code FROM course WHERE course_id = '4' 
+02:07:43 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:49 pm ---> Connection Established
+02:07:49 pm ---> Connection Established
+02:07:49 pm ---> SELECT session_id FROM course WHERE course_id = '3' 
+02:07:49 pm ---> 0
+02:07:49 pm ---> DELETE FROM course WHERE course_id='3' 
+02:07:49 pm ---> 0
+02:07:49 pm ---> DELETE FROM student_course_registration WHERE course_id='3' 
+02:07:49 pm ---> SELECT lectures_id,course,venue,time FROM lectures WHERE course LIKE '%3%' 
+02:07:49 pm ---> Connection Established
+02:07:49 pm ---> Connection Established
+02:07:49 pm ---> SELECT course_id,course_code,course_name,course_level_id,course_semester_id,faculty_id,department_id,course_unit,course_pre_requisite_id,addedby FROM course WHERE faculty_id = '1' AND session_id LIKE '%1%' 
+02:07:49 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:49 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:49 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:49 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:49 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:49 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:49 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:49 pm ---> SELECT semester FROM semester WHERE id = '2' 
+02:07:49 pm ---> SELECT course_code FROM course WHERE course_id = '4' 
+02:07:49 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:53 pm ---> Connection Established
+02:07:54 pm ---> academic_session Session Saved
+02:07:54 pm ---> Connection Established
+02:07:54 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:07:54 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:07:54 pm ---> Connection Established
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> Connection Established
+02:07:54 pm ---> UPDATE student SET session_id='1'  WHERE student_faculty='1' AND status='undergraduate' AND session_id='1'
+02:07:54 pm ---> Couldn't Generate Data From Source, Query Error!
+02:07:54 pm ---> SELECT student_id,student_dept,student_mat_no,student_dob,student_first_name,student_middle_name,student_last_name,student_level_id,student_semester_id,admitted FROM student WHERE student_faculty = '1' AND status = 'undergraduate' AND session_id = '1' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '3' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:54 pm ---> SELECT level FROM level WHERE id = '1' 
+02:07:54 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:07:54 pm ---> SELECT semester FROM semester WHERE id = '1' 
+02:07:54 pm ---> SELECT department_name FROM department WHERE department_id = '2' 
+02:07:54 pm ---> Connection Established
+02:07:54 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:07:54 pm ---> Connection Established
+02:08:03 pm ---> Connection Established
+02:08:03 pm ---> academic_session Session Saved
+02:08:03 pm ---> Connection Established
+02:08:03 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:08:03 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:08:03 pm ---> Connection Established
+02:08:03 pm ---> SELECT session_name FROM session WHERE session_id = '1' 
+02:08:03 pm ---> Connection Established
+02:08:03 pm ---> SELECT department_id,department_name FROM department WHERE faculty_id = '1' 
+02:08:03 pm ---> SELECT * FROM admin WHERE department_id = '1' 
+02:08:03 pm ---> SELECT * FROM admin WHERE department_id = '2' 
+02:08:03 pm ---> SELECT * FROM admin WHERE department_id = '3' 
+02:08:04 pm ---> Connection Established
+02:08:10 pm ---> Connection Established
+02:08:10 pm ---> Connection Established
+02:08:10 pm ---> SELECT admin_first_name,admin_middle_name,admin_last_name,admin_capability,faculty_id,department_id FROM admin WHERE admin_id = '2' 
+02:08:10 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:08:10 pm ---> Connection Established
+02:08:10 pm ---> SELECT faculty_name FROM faculty WHERE faculty_id = '1' 
+02:08:10 pm ---> Connection Established
+02:08:10 pm ---> SELECT department_name FROM department WHERE department_id = '1' 
+02:08:10 pm ---> Connection Established

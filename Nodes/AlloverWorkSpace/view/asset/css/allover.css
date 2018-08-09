@@ -1,0 +1,113 @@
+
+@font-face {
+
+    font-family: 'allover-audiowide';
+    src:url(../normal-font/Audiowide-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: 'allover-amble';
+    src:url(Amble-Regular-webfont.ttf) format('truetype');
+}
+
+.w3-alloverfont {
+  font-family: "allover-amble", sans-serif;
+}
+
+.w3-light-black-bg{
+
+	background:rgba(0,0,0,0.8);
+
+}
+
+.allover-usr-blue-bg{
+
+	background:#4CAF50;
+	color:#FFFFFF;
+}
+
+.allover-usr-blue-hover{
+
+	background:#FFFFFF;
+	color:#4CAF50;
+}
+
+.allover-usr-bg{
+
+	background: #3333390;
+}
+
+.allover-usr-btn{
+	background: #7f8c8d;
+	color:#FFFFFF;
+}
+
+.allover-usr-blue-c{
+	color: #333366;
+}
+
+.w3-cloud-bg{
+	background: #ecf0f1;
+}
+
+.w3-cloud-c{
+	color: #ecf0f1;
+}
+
+.w3-usr-tooltip{
+
+	position: relative;
+	display: inline-block;
+	border-bottom: 0;
+
+}
+
+.w3-usr-tooltip-tooltiptext{
+
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+
+	opacity: 0;
+	transition: opacity 1s;  
+	font-size: 12px;
+}
+
+.w3-usr-tooltip-tooltiptext::after{
+
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+
+}
+
+.w3-usr-tooltip:hover .w3-usr-tooltip-tooltiptext{
+
+	visibility: visible;
+	opacity: 1;
+
+}
+
+.w3-usr-select-option{
+	padding-top: 3px !important;
+	padding-bottom: 3px !important;
+	margin-top: 2px !important;
+	margin-bottom: 2px !important;
+	background: snow !important;
+}
